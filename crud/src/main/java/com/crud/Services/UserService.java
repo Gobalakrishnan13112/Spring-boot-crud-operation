@@ -22,6 +22,7 @@ public class UserService {
 		return userRepo.findAll();
 	}
 	
+	//FetchByEmail
 	public User findByEmail(String email) {
 		return userRepo. findByEmail(email);
 		
